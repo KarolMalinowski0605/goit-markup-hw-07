@@ -84,7 +84,7 @@
             fill: $brand-color-blue-button-hover;
         }
     }
-    &__checkbox--label {
+    &__checkbox-label {
         display: flex;
         width: 16px;
         height: 15px;
@@ -95,10 +95,10 @@
         margin-top: 4px;
     }
 
-    &__checkbox--input {
+    &__checkbox-input {
         display: none;
     }
-    &__checkbox--input:checked + &__checkbox--label {
+    &__checkbox-input:checked + &__checkbox-label {
         border: none;
         background-image: url('../images/iconcheck.jpg');
     }
@@ -137,7 +137,7 @@
 .is-hidden .modal {
     transform: translate(-50%, -50%) scale(0) rotate(45deg);
 }
-textarea {
+.textarea {
     width: 448px;
     height: 120px;
     resize: none;
